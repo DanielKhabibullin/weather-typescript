@@ -2,6 +2,7 @@ import style from './Search.module.scss';
 import {ReactComponent as SearchIcon} from './img/search.svg';
 import { useState } from 'react';
 import { weatherRequestAsync } from '../../store/weather/weatherAction';
+import { useAppDispatch } from '../../hooks';
 type Props = {}
 
 export const Search = (props: Props) => {
